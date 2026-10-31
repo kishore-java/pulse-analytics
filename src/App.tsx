@@ -1,11 +1,12 @@
- 
+ import { DashboardLayout } from "./features/dashboard/DashboardLayout"
+ import { Dashboard } from "./features/dashboard/Dashboard"
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        Pulse Analytics
-      </h1>
-    </main>
+    <DashboardLayout>
+        
+        <Dashboard/>
+
+    </DashboardLayout>
   )
 }
 
